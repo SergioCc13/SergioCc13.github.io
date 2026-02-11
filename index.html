@@ -1,39 +1,445 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
 	<head>
-		<title>Sergio's Portfolio</title>
+		<title>Sergio | Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Sergio's portfolio: Computer Engineer. Systems, security, Linux, and practical projects." />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header">
+			<div id="header" id="top">
 
-					<!-- Inner -->
-						<div class="inner">
+				<!-- Inner -->
+				<div class="inner">
+					<header>
+						<h1><a href="#top" id="logo">Sergio</a></h1>
+						<hr />
+						<p>Computer Engineering Student · Systems · Security · Projects</p>
+					</header>
+					<footer>
+						<a href="#projects" class="button circled scrolly">View projects</a>
+					</footer>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#about" class="scrolly">About</a></li>
+						<li><a href="#projects" class="scrolly">Projects</a></li>
+						<li><a href="#skills" class="scrolly">Skills</a></li>
+						<li><a href="#contact" class="scrolly">Contact</a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Hi, I'm <strong>Sergio</strong>.</h2>
+					<p>
+						I enjoy building practical things that actually run: from Linux systems and automation
+						to security-focused setups and self-hosted services. Here’s a selection of my work.
+					</p>
+				</header>
+			</section>
+
+			<!-- About -->
+			<div class="wrapper style2">
+				<article id="about" class="container special">
+					<!-- Optional: place your image in /images and update the filename -->
+					<a href="#about" class="image featured"><img src="images/pic01.jpg" alt="Sergio - cover image" /></a>
+					<header>
+						<h2>About me</h2>
+						<p>
+							I’m a Computer Engineering student with a strong interest in systems, networking, and security.
+							I like understanding how things work under the hood and improving reliability through automation and good practices.
+						</p>
+					</header>
+
+					<p>
+						Recently I’ve worked on Linux/Unix environments, server-style setups (like a Raspberry Pi NAS),
+						and security/cryptography fundamentals. I also enjoy documenting solutions clearly and building projects
+						that can be reproduced and maintained.
+					</p>
+
+					<footer>
+						<a href="#contact" class="button scrolly">Get in touch</a>
+					</footer>
+				</article>
+			</div>
+
+			<!-- Projects -->
+			<div class="wrapper style1">
+				<section id="projects" class="container special">
+					<header>
+						<h2>Projects</h2>
+						<p>A concise selection with the essentials: goal, what I did, and the tech involved.</p>
+					</header>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="Raspberry Pi NAS + Nextcloud" /></a>
 							<header>
-								<h1><a href="index.html" id="logo">Helios</a></h1>
-								<hr />
-								<p>Another fine freebie by HTML5 UP</p>
+								<h3><a href="#">Raspberry Pi NAS with Nextcloud</a></h3>
 							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">Start</a>
-							</footer>
-						</div>
+							<p>
+								Self-hosted NAS setup using Nextcloud for file sync and remote access. Focused on users/permissions,
+								storage structure, reliability, and maintainability.
+							</p>
+							<p><strong>Stack:</strong> Raspberry Pi · Linux · Nextcloud · Networking · Backups</p>
+						</article>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="Unix / OS practice" /></a>
+							<header>
+								<h3><a href="#">Unix / Operating Systems Practice</a></h3>
+							</header>
+							<p>
+								Command-line exercises and scripts: permissions, processes, pipelines, redirections, and task automation.
+								A practical foundation for real system work.
+							</p>
+							<p><strong>Stack:</strong> Bash · Linux · CLI · Git</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="Security / Cryptography fundamentals" /></a>
+							<header>
+								<h3><a href="#">Security & Cryptography Fundamentals</a></h3>
+							</header>
+							<p>
+								Work focused on security principles: threat models, best practices, and cryptographic concepts applied to real scenarios.
+							</p>
+							<p><strong>Topics:</strong> Security · Cryptography · Risk · Good practices</p>
+						</article>
+					</div>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="ERP proposal" /></a>
+							<header>
+								<h3><a href="#">ERP Implementation Proposal (Academic Case)</a></h3>
+							</header>
+							<p>
+								Process analysis and an ERP implementation proposal: scope, modules, impact on users,
+								and a realistic adoption plan.
+							</p>
+							<p><strong>Focus:</strong> Requirements · Processes · Adoption · Change management</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="Information Systems case" /></a>
+							<header>
+								<h3><a href="#">Information Systems Case Study</a></h3>
+							</header>
+							<p>
+								Documentation and analysis for a fictional company: needs assessment, system improvement proposal,
+								and structured deliverables.
+							</p>
+							<p><strong>Focus:</strong> Analysis · Documentation · Proposal</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic07.jpg" alt="Extra project placeholder" /></a>
+							<header>
+								<h3><a href="#">Extra Project (Add yours here)</a></h3>
+							</header>
+							<p>
+								Add another project: a small app, a tool, a network lab, a Docker setup, etc.
+								Best practice: include a GitHub link or a short demo.
+							</p>
+							<p><strong>Stack:</strong> (Your technologies)</p>
+						</article>
+					</div>
+
+					<footer style="text-align:center; margin-top: 2rem;">
+						<a href="#contact" class="button scrolly">Contact</a>
+					</footer>
+				</section>
+			</div>
+
+			<!-- Skills -->
+			<div class="wrapper style2">
+				<section id="skills" class="container special">
+					<header>
+						<h2>Skills</h2>
+						<p>What I use, and what I’m actively improving.</p>
+					</header>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Systems</h3>
+							</header>
+							<p>
+								Linux/Unix · CLI · Services · Permissions · Processes · Basic networking · Self-hosting
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Development</h3>
+							</header>
+							<p>
+								Git · Bash scripting · Technical documentation · Solid fundamentals from coursework and projects
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Interests</h3>
+							</header>
+							<p>
+								Security · Applied cryptography · Automation · Lightweight infrastructure · Reliability practices
+							</p>
+						</article>
+					</div>
+				</section>
+			</div>
+
+			<!-- Footer / Contact -->
+			<div id="footer">
+				<div class="container">
+					<section id="contact" class="contact">
+						<header>
+							<h2>Contact</h2>
+							<p>If you want to talk about projects, internships, or collaboration, reach me here.</p>
+						</header>
+
+						<ul class="icons">
+							<!-- Replace these with your real links -->
+							<li><a href="https://github.com/" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:youremail@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+						<p style="margin-top: 1rem;">
+							<strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a>
+						</p>
+					</section>
+
+					<div class="copyright">
+						<ul class="menu">
+							<li>&copy; Sergio. All rights reserved.</li>
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+					</footer>
+				</article>
+
+			</div>
+
+			<!-- Projects -->
+			<div class="wrapper style1">
+				<section id="projects" class="container special">
+					<header>
+						<h2>Proyectos</h2>
+						<p>Una selección corta, con lo importante: objetivo, qué hice y tecnologías.</p>
+					</header>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="Proyecto NAS + Nextcloud" /></a>
+							<header>
+								<h3><a href="#">NAS en Raspberry Pi con Nextcloud</a></h3>
+							</header>
+							<p>
+								Montaje de un NAS casero con Nextcloud para sincronización y acceso remoto. Gestión de usuarios,
+								permisos, almacenamiento y buenas prácticas de mantenimiento.
+							</p>
+							<p>
+								<strong>Stack:</strong> Raspberry Pi · Linux · Nextcloud · Redes · (Backups/permiso/servicios)
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="Proyecto Unix / Sistemas Operativos" /></a>
+							<header>
+								<h3><a href="#">Prácticas Unix / Sistemas Operativos</a></h3>
+							</header>
+							<p>
+								Ejercicios y scripts en entorno Unix: permisos, procesos, tuberías, redirecciones y automatización
+								de tareas típicas de administración.
+							</p>
+							<p>
+								<strong>Stack:</strong> Bash · Linux · CLI · Git
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="Proyecto Seguridad / Criptografía" /></a>
+							<header>
+								<h3><a href="#">Seguridad y fundamentos de criptografía</a></h3>
+							</header>
+							<p>
+								Trabajo práctico sobre principios de seguridad: modelos de amenaza, buenas prácticas
+								y conceptos criptográficos aplicados a casos reales.
+							</p>
+							<p>
+								<strong>Temas:</strong> Seguridad · Criptografía · Riesgos · Buenas prácticas
+							</p>
+						</article>
+					</div>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="Proyecto ERP / Sistemas de Información" /></a>
+							<header>
+								<h3><a href="#">Propuesta de ERP (caso académico)</a></h3>
+							</header>
+							<p>
+								Análisis de procesos y propuesta de implementación de un ERP para una empresa ficticia:
+								alcance, módulos, impacto en usuarios y plan de adopción.
+							</p>
+							<p>
+								<strong>Enfoque:</strong> Procesos · Requisitos · Implantación · Gestión del cambio
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="Proyecto Sistemas de Información" /></a>
+							<header>
+								<h3><a href="#">Caso PhoneKing (Sistemas de Información)</a></h3>
+							</header>
+							<p>
+								Desarrollo de entregas académicas sobre una empresa ficticia: análisis del sistema,
+								necesidades, propuesta de mejora y documentación.
+							</p>
+							<p>
+								<strong>Enfoque:</strong> Análisis · Documentación · Propuesta
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<a href="#" class="image featured"><img src="images/pic07.jpg" alt="Proyecto extra" /></a>
+							<header>
+								<h3><a href="#">Proyecto extra (rellena con el tuyo)</a></h3>
+							</header>
+							<p>
+								Aquí puedes poner otro proyecto: una app, un script, un laboratorio de redes, etc.
+								Lo ideal es incluir un enlace a GitHub o una demo.
+							</p>
+							<p>
+								<strong>Stack:</strong> (Tecnologías)
+							</p>
+						</article>
+					</div>
+
+					<footer style="text-align:center; margin-top: 2rem;">
+						<a href="#contact" class="button scrolly">Contacto</a>
+					</footer>
+				</section>
+			</div>
+
+			<!-- Skills -->
+			<div class="wrapper style2">
+				<section id="skills" class="container special">
+					<header>
+						<h2>Habilidades</h2>
+						<p>Lo que uso y lo que me interesa seguir mejorando.</p>
+					</header>
+
+					<div class="row">
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Sistemas</h3>
+							</header>
+							<p>
+								Linux/Unix · CLI · Permisos · Procesos · Servicios · Redes básicas · Self-hosting (Nextcloud)
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Desarrollo</h3>
+							</header>
+							<p>
+								Git · Scripting (Bash) · Bases de programación (según tus asignaturas/proyectos)
+								· Documentación técnica
+							</p>
+						</article>
+
+						<article class="col-4 col-12-mobile special">
+							<header>
+								<h3>Intereses</h3>
+							</header>
+							<p>
+								Seguridad · Criptografía aplicada · Automatización · Infra ligera · Buenas prácticas de despliegue
+							</p>
+						</article>
+					</div>
+				</section>
+			</div>
+
+			<!-- Footer / Contact -->
+			<div id="footer">
+				<div class="container">
+					<section id="contact" class="contact">
+						<header>
+							<h2>Contacto</h2>
+							<p>Si quieres hablar de un proyecto, prácticas o colaboración, aquí me encuentras.</p>
+						</header>
+
+						<ul class="icons">
+							<!-- Cambia los enlaces por los tuyos -->
+							<li><a href="https://github.com/" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:tuemail@ejemplo.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+						<p style="margin-top: 1rem;">
+							<strong>Email:</strong> <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a>
+						</p>
+					</section>
+
+					<div class="copyright">
+						<ul class="menu">
+							<li>&copy; Felipe. Todos los derechos reservados.</li>
+							<li>Diseño: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
 								<li>
 									<a href="#">Dropdown</a>
 									<ul>
@@ -386,3 +792,4 @@
 	</body>
 
 </html>
+
