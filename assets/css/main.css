@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3216,3 +3210,12 @@ input, select, textarea {
 	text-align: left; /* avoid forced justify inside the intro card */
 }
 
+/* Interests tags (chips) */
+.tags span{
+  display:inline-block;
+  padding:.35rem .7rem;
+  margin:.25rem .3rem 0 0;
+  border-radius:999px;
+  background:rgba(0,0,0,.06);
+  border:1px solid rgba(0,0,0,.08);
+}
