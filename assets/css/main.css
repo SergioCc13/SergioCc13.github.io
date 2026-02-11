@@ -1953,6 +1953,8 @@ input, select, textarea {
 	form select,
 	form textarea {
 		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 		display: block;
 		border: 0;
 		background: #fafafa;
@@ -2536,6 +2538,8 @@ input, select, textarea {
 				-ms-transition: background-color 0.35s ease-in-out;
 				transition: background-color 0.35s ease-in-out;
 				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+
 			}
 
 			.carousel .forward:after, .carousel .backward:after {
@@ -3199,3 +3203,16 @@ input, select, textarea {
 	margin-top: 1.1rem;
 	border: 1px solid rgba(0, 0, 0, 0.06);
 }
+
+
+/* --- Sergio: Intro layout tweaks (keeps text off the edges) --- */
+
+#intro.wrapper.style2 {
+	padding-top: 4em; /* override base .wrapper.style2 (which removes top padding) */
+}
+
+#intro .intro-card p,
+#intro .intro-card li {
+	text-align: left; /* avoid forced justify inside the intro card */
+}
+
