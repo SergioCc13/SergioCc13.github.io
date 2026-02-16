@@ -1,186 +1,158 @@
-<!DOCTYPE HTML>
-<!-- Helios by HTML5 UP (customized) -->
-<html lang="en">
-  <head>
-    <title>Sergio | Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="Sergio's portfolio: Junior Cybersecurity Engineer focused on IT/OT security and industrial environments." />
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sergio | IT/OT Security</title>
+  <meta name="description" content="Sergio — Junior Cybersecurity Engineer focused on IT/OT security and industrial environments." />
 
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <!-- Optional: if you later add a sharing image -->
+  <!-- <meta property="og:image" content="images/og.jpg" /> -->
 
-    <!-- Optional: update to your real URL (or remove) -->
-    <!-- <link rel="canonical" href="https://SergioCc13.github.io/" /> -->
-    <!-- <meta property="og:url" content="https://SergioCc13.github.io/" /> -->
-  </head>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-  <body class="homepage is-preload">
-    <div id="page-wrapper">
+<body>
+  <!-- subtle cursor glow -->
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-      <!-- Header -->
-      <div id="header">
-        <div class="inner">
-          <header>
-            <h1 id="logo"><a href="index.html">Sergio</a></h1>
-            <hr />
-            <p>Junior Cybersecurity Engineer · IT/OT Security · Industrial Environments</p>
-          </header>
-          <footer>
-            <a href="#projects" class="button circled scrolly">View projects</a>
-          </footer>
-        </div>
+  <header class="topbar">
+    <a class="logo" href="#top">Sergio</a>
 
-        <!-- Nav (dropdown projects) -->
-        <nav id="nav">
-          <ul>
-            <li><a href="#about" class="scrolly">About</a></li>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
 
-            <li>
-              <a href="#">Projects</a>
-              <ul>
-                <li><a href="projects/raspberry-nas-nextcloud.html">Raspberry Pi NAS + Nextcloud</a></li>
-                <li><a href="projects/industry.html">Industrial Lab (Pico 2W + Gateway)</a></li>
-                <li><a href="projects/dron.html">Drone Project</a></li>
-              </ul>
-            </li>
+      <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span class="dot" aria-hidden="true"></span>
+        Theme
+      </button>
+    </nav>
+  </header>
 
-            <li><a href="#contact" class="scrolly">Contact</a></li>
+  <main id="top" class="wrap">
 
-            <!-- Theme toggle (optional, works if you include theme.js) -->
-            <li><a href="#" id="theme-toggle" aria-label="Toggle theme">Theme</a></li>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="kicker">Junior Cybersecurity Engineer</p>
+      <h1>
+        IT/OT security for industrial environments,
+        <span class="muted">built with practical systems and real constraints.</span>
+      </h1>
+
+      <p class="lead">
+        Computer Engineering background, hands-on experience with Siemens PCS 7.
+        I enjoy building things that are new to me and learning fast when the challenge is real.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+
+      <div class="chips">
+        <span>IT/OT</span><span>Linux</span><span>Networking</span><span>Automation</span><span>Self-hosting</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="sub">
+          Security-minded systems, clear documentation, and a calm approach to solving messy problems.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Focus</h3>
+          <ul class="list">
+            <li>IT/OT security fundamentals in industrial settings</li>
+            <li>Networking and troubleshooting (how systems actually talk)</li>
+            <li>Systems architecture: components, dependencies, reliability</li>
           </ul>
-        </nav>
-      </div>
+        </div>
 
-      <!-- Intro (Banner + About together) -->
-      <div id="intro" class="wrapper style2">
-        <section class="container">
-          <div class="intro-card">
-
-            <header class="intro-head">
-              <h2>Hi, I’m <strong>Sergio</strong>.</h2>
-              <p>
-                I work on security-minded systems, especially where IT meets industrial environments.
-                Below are a few projects, each with its own page.
-              </p>
-            </header>
-
-            <article id="about" class="intro-about">
-              <a href="#about" class="image featured intro-image">
-                <img src="images/pic01.jpg" alt="Sergio - cover image" loading="lazy" />
-              </a>
-
-              <header>
-                <h2>About</h2>
-                <p>
-                  I’m a Junior Cybersecurity Engineer focused on IT/OT security and industrial environments.
-                  I have a background in Computer Engineering and hands-on experience with Siemens PCS 7.
-                  I enjoy building things that are new to me, and I’m comfortable learning fast when there’s a challenge in front of me.
-                </p>
-              </header>
-
-              <p class="intro-meta">
-                <strong>Core skills:</strong><br />
-                Programming &amp; problem solving · Computer networks · Distributed systems · Information systems · Software engineering ·
-                Data management · AI fundamentals · Systems &amp; networked applications architecture
-                <br /><br />
-                <strong>Interests:</strong> Self-hosting · Cybersecurity · Automation · Embedded/Robotics
-              </p>
-            </article>
-
-          </div>
-        </section>
-      </div>
-
-      <!-- Projects (previews) -->
-      <div class="wrapper style1">
-        <section id="projects" class="container special">
-          <header>
-            <h2>Projects</h2>
-            <p>Quick previews below. Click any project to see the full story, screenshots, and all the details.</p>
-          </header>
-
-          <div class="row">
-            <article class="col-4 col-12-mobile special reveal">
-              <a href="projects/raspberry-nas-nextcloud.html" class="image featured">
-                <img src="images/pic02.jpg" alt="Raspberry Pi NAS with Nextcloud" loading="lazy" />
-              </a>
-              <header>
-                <h3><a href="projects/raspberry-nas-nextcloud.html">Raspberry Pi NAS + Nextcloud</a></h3>
-              </header>
-              <p>Self-hosted NAS for private file sync and access. Focus on reliability, permissions, and maintenance.</p>
-              <footer><a href="projects/raspberry-nas-nextcloud.html" class="button">Read more</a></footer>
-            </article>
-
-            <article class="col-4 col-12-mobile special reveal">
-              <a href="projects/industry.html" class="image featured">
-                <img src="images/pic03.jpg" alt="Industrial lab with Pico 2W and gateway" loading="lazy" />
-              </a>
-              <header>
-                <h3><a href="projects/industry.html">Industrial Lab (Pico 2W + Gateway)</a></h3>
-              </header>
-              <p>Prototype lab: sensors + microcontrollers, Raspberry Pi gateway, and monitoring workstation.</p>
-              <footer><a href="projects/industry.html" class="button">Read more</a></footer>
-            </article>
-
-            <article class="col-4 col-12-mobile special reveal">
-              <a href="projects/dron.html" class="image featured">
-                <img src="images/pic04.jpg" alt="Drone project" loading="lazy" />
-              </a>
-              <header>
-                <h3><a href="projects/dron.html">Drone Project</a></h3>
-              </header>
-              <p>A drone-related build focusing on practical constraints, testing, and iteration.</p>
-              <footer><a href="projects/dron.html" class="button">Read more</a></footer>
-            </article>
-          </div>
-        </section>
-      </div>
-
-      <!-- Footer / Contact -->
-      <div id="footer">
-        <div class="container">
-          <section id="contact" class="contact">
-            <header>
-              <h2>Contact</h2>
-              <p>Reach me here. Replace the links with your real profiles.</p>
-            </header>
-
-            <ul class="icons">
-              <li><a href="https://github.com/YOUR_USERNAME" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
-              <li><a href="https://www.linkedin.com/in/YOUR_LINKEDIN" class="icon brands fa-linkedin-in" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
-              <li><a href="mailto:youremail@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-
-            <p style="margin-top: 1rem;">
-              <strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a>
-            </p>
-          </section>
-
-          <div class="copyright">
-            <ul class="menu">
-              <li>&copy; Sergio. All rights reserved.</li>
-              <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-            </ul>
-          </div>
+        <div class="card">
+          <h3>Skills</h3>
+          <ul class="list">
+            <li>Programming and problem solving</li>
+            <li>Software engineering practices (design, build, test)</li>
+            <li>Distributed systems and networked applications</li>
+            <li>Data management fundamentals</li>
+            <li>AI / intelligent systems basics</li>
+          </ul>
         </div>
       </div>
+    </section>
 
-    </div>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+        <p class="sub">Quick previews below. Click any project to see the full story, screenshots, and all the details.</p>
+      </div>
 
-    <!-- Scripts (Helios) -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+      <div class="projects">
+        <a class="project-card reveal" href="projects/raspberry-nas-nextcloud.html">
+          <div class="project-top">
+            <h3>Raspberry Pi NAS + Nextcloud</h3>
+            <span class="tag">Self-hosting</span>
+          </div>
+          <p>Private file sync and access with a focus on reliability, permissions, and maintenance.</p>
+          <div class="meta">Linux · Nextcloud · Networking · Backups</div>
+          <div class="thumb">
+            <img src="images/project-nas.jpg" alt="Raspberry Pi NAS project preview" loading="lazy" />
+          </div>
+        </a>
 
-    <!-- Optional extras -->
-    <script src="assets/js/theme.js" defer></script>
-    <script src="assets/js/reveal.js" defer></script>
-  </body>
+        <a class="project-card reveal" href="projects/industry.html">
+          <div class="project-top">
+            <h3>Industrial Lab Prototype (Pico 2W + Gateway)</h3>
+            <span class="tag">FYP</span>
+          </div>
+          <p>Two Pico 2W nodes with sensors, a Raspberry Pi gateway, and a monitoring laptop.</p>
+          <div class="meta">Pico 2W · Sensors · Raspberry Pi · Monitoring</div>
+          <div class="thumb">
+            <img src="images/project-industry.jpg" alt="Industrial lab project preview" loading="lazy" />
+          </div>
+        </a>
+
+        <a class="project-card reveal" href="projects/dron.html">
+          <div class="project-top">
+            <h3>Drone Project</h3>
+            <span class="tag">Build</span>
+          </div>
+          <p>Planning, component choices, testing iterations, and what I learned along the way.</p>
+          <div class="meta">Hardware · Testing · Iteration</div>
+          <div class="thumb">
+            <img src="images/project-drone.jpg" alt="Drone project preview" loading="lazy" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="sub">Replace these with your real links.</p>
+      </div>
+
+      <div class="card contact-card">
+        <div class="contact-row">
+          <a class="link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a>
+          <a class="link" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="link" href="mailto:youremail@example.com">Email</a>
+        </div>
+        <p class="tiny">© <span id="year"></span> Sergio</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
 </html>

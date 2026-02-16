@@ -1,4 +1,0 @@
-/* Minimal fallback when JS is disabled */
-body.is-preload { opacity: 1; }
-#nav { display: block; }
-.reveal { opacity: 1 !important; transform: none !important; }
